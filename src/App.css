@@ -1,0 +1,42 @@
+html {
+  background-color: rgba(249,250,245,255);
+}
+@font-face {
+  font-family: held-fast;
+  src: url(./files/HeldxFast.ttf);
+}
+
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(101, 123, 130);
+  color:white;
+}
+.BGlogo{
+  max-height: 10vh;
+}
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+
+.heading {
+  font-family: held-fast;
+  font-size: 80px;
+  margin-bottom: 0%;
+}
