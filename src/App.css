@@ -5,6 +5,10 @@ html {
   font-family: held-fast;
   src: url(./files/HeldxFast.ttf);
 }
+@font-face {
+  font-family: rats;
+  src: url(./files/Rats-Get-Fat.ttf);
+}
 
 .App {
   text-align: center;
@@ -16,7 +20,9 @@ nav{
   align-items: center;
   min-height: 10vh;
   background: rgb(101, 123, 130);
-  color:white;
+  color:black;
+  font-weight: bold;
+  font-family: rats;
 }
 .BGlogo{
   max-height: 10vh;
@@ -32,11 +38,110 @@ a{
   text-decoration: none;
 }
 a:visited{
-  color: white;
+  color: black;
+}
+.cart-logo {
+  max-height: 5vh;
 }
 
 .heading {
   font-family: held-fast;
   font-size: 80px;
   margin-bottom: 0%;
+}
+
+.store-grid{
+  display: grid;
+  padding: 5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 3rem;
+}
+
+.store-item{
+  display: grid;
+  grid-template-rows: 2fr 1.5fr;
+  align-items: center;
+  justify-items: center;
+  height: 350px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+.album-cover{
+  height: 200px;
+  box-shadow: 0 0 5px black;
+}
+.album-info {
+  width: 80%;
+}
+
+.album-name{
+  margin-bottom: 0rem;
+  font-family: rats;
+  font-size: 15px;
+}
+.album-price {
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+.buy-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+  width: 90%;
+  align-self: end;
+}
+.shop-quantity {
+  width: 2rem;
+}
+.add-to-cart{
+  height: 20px;
+  align-self: center;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.content {
+  font-family: rats;
+}
+.cartContainer{
+  margin-bottom: 5rem;
+}
+
+.cart {
+  margin-top: 5rem;
+  display: grid;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.cart-album {
+  justify-self: start;
+  padding-left: 2rem;
+}
+.cart-quantity {
+  width: 3rem;
+}
+.cart-item {
+  height: 15vh;
+  width:90%;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 8fr 1fr 2fr 1fr;
+  align-items: center;
+  border: 2px solid black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 10px;
+}
+.cart-cover {
+  height: 10vh;
+}
+.cart-remove{
+  height: 2rem;
+  border-radius: 10px;
+  border: 2px solid black;
 }
