@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.7ec1154d.css",
+    "main.js": "/shopping-cart/static/js/main.ed6970cb.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/HappyBirthday-WhiteShirt.png": "/shopping-cart/static/media/HappyBirthday-WhiteShirt.dee660ebd179cd91720d.png",
+    "static/media/Flags-WhiteShirt.png": "/shopping-cart/static/media/Flags-WhiteShirt.2aaa198fc61871a9fc8d.png",
+    "static/media/Seagull-WhiteShirt.png": "/shopping-cart/static/media/Seagull-WhiteShirt.97f8bbf5081b07dfbd1b.png",
+    "static/media/BayGullsChest - WhiteShirt.png": "/shopping-cart/static/media/BayGullsChest - WhiteShirt.364eccdef432437ce177.png",
+    "static/media/BGLogo-WhiteShirt.png": "/shopping-cart/static/media/BGLogo-WhiteShirt.cda5b5b633bb52c332fe.png",
+    "static/media/I-10-WhiteShirt.png": "/shopping-cart/static/media/I-10-WhiteShirt.a6cf96f6e220fa4aa680.png",
+    "static/media/BayGullsPocket - WhiteShirt.png": "/shopping-cart/static/media/BayGullsPocket - WhiteShirt.ee9caafb0b5a87957c92.png",
+    "static/media/BayGullsChestBlackBox - WhiteShirt.png": "/shopping-cart/static/media/BayGullsChestBlackBox - WhiteShirt.96038b7518a1c8365a1d.png",
+    "static/media/BDayHangoverSquare.jpeg": "/shopping-cart/static/media/BDayHangoverSquare.d874db4c24dc29569ed7.jpeg",
+    "static/media/HappyBirthday-BlackShirt.png": "/shopping-cart/static/media/HappyBirthday-BlackShirt.3ec50e752c7b03b756ce.png",
+    "static/media/Flags-BlackShirt.png": "/shopping-cart/static/media/Flags-BlackShirt.ca931b846dc853bd6ee8.png",
+    "static/media/BGLogo-BlackShirt.png": "/shopping-cart/static/media/BGLogo-BlackShirt.92d9e9c637db022ef810.png",
+    "static/media/BayGullsChest - BlackShirt.png": "/shopping-cart/static/media/BayGullsChest - BlackShirt.aff7482e1e92c8e65960.png",
+    "static/media/BayGullsPocket - BlackShirt.png": "/shopping-cart/static/media/BayGullsPocket - BlackShirt.0336f5478beefcb60370.png",
+    "static/media/SeagullTrans.png": "/shopping-cart/static/media/SeagullTrans.0d66e064367b33093ad6.png",
+    "static/media/FlagsCover.png": "/shopping-cart/static/media/FlagsCover.749f7904d4f9a9725463.png",
+    "static/media/BGlogo.png": "/shopping-cart/static/media/BGlogo.585c902140eeb850a410.png",
+    "static/media/HeldxFast.ttf": "/shopping-cart/static/media/HeldxFast.b4240745191d937ca3e1.ttf",
+    "static/media/Rats-Get-Fat.ttf": "/shopping-cart/static/media/Rats-Get-Fat.f1f39767bfe032021575.ttf",
+    "static/media/cart.png": "/shopping-cart/static/media/cart.eca5ee08f37494f3f691.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.7ec1154d.css.map": "/shopping-cart/static/css/main.7ec1154d.css.map",
+    "main.ed6970cb.js.map": "/shopping-cart/static/js/main.ed6970cb.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ec1154d.css",
+    "static/js/main.ed6970cb.js"
+  ]
+}
