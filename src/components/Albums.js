@@ -8,6 +8,11 @@ import BGLogoWhite from '../files/BGLogo-WhiteShirt.png';
 import BGLogoBlack from '../files/BGLogo-BlackShirt.png';
 import I10White from '../files/I-10-WhiteShirt.png';
 import SeagullWhite from '../files/Seagull-WhiteShirt.png';
+import BayGullsChestWhite from '../files/BayGullsChest - WhiteShirt.png';
+import BayGullsChestBlack from '../files/BayGullsChest - BlackShirt.png';
+import BayGullsBlackChest from '../files/BayGullsChestBlackBox - WhiteShirt.png';
+import BayGullsPocketBlack from '../files/BayGullsPocket - BlackShirt.png';
+import BayGullsPocketWhite from '../files/BayGullsPocket - WhiteShirt.png';
 
 export const Albums = [
     {
@@ -70,5 +75,34 @@ export const Albums = [
         price: 24.99,
         key: 10
     },
-    
+    {
+        album: 'Bay Gulls - White Tee',
+        src: `${BayGullsChestWhite}`,
+        price: 24.99,
+        key: 11
+    },
+    {
+        album: 'Bay Gulls - Black Tee',
+        src: `${BayGullsChestBlack}`,
+        price: 24.99,
+        key: 12
+    },
+    {
+        album: 'Bay Gulls Block - White Tee',
+        src: `${BayGullsBlackChest}`,
+        price: 24.99,
+        key: 13
+    },
+    {
+        album: 'Bay Gulls - Black Pocket Tee',
+        src: `${BayGullsPocketBlack}`,
+        price: 24.99,
+        key: 14
+    },
+    {
+        album: 'Baygull - White Pocket Tee',
+        src: `${BayGullsPocketWhite}`,
+        price: 24.99,
+        key: 15
+    },
 ]

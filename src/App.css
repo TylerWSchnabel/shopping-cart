@@ -198,7 +198,8 @@ a:visited{
 
 #enlargedPicture1, #enlargedPicture2, #enlargedPicture3, #enlargedPicture4, 
 #enlargedPicture5, #enlargedPicture6, #enlargedPicture7, #enlargedPicture8, 
-#enlargedPicture9, #enlargedPicture10{
+#enlargedPicture9, #enlargedPicture10,#enlargedPicture11,#enlargedPicture12,
+#enlargedPicture13,#enlargedPicture14,#enlargedPicture15{
   display: none;
   grid-template-rows: 9fr 1fr;
 }
