@@ -77,7 +77,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="/shopping-cart">
         <Nav cart={cart} />
           <Routes>
             <Route path='/' element={<Home/>}/>
