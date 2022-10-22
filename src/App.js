@@ -11,7 +11,6 @@ function App() {
 
   const [cart, setCart] = useState([]);
   const [cartTotal, setCartTotal] = useState(0);
-  const [itemsInCart, setItemsInCart] = useState(0);
 
   useEffect(() =>{
     getTotal();
