@@ -4,6 +4,10 @@ const Cart = (props) => {
 
     const {cart, total, remove, change, round} = props;
 
+    const checkout = () => {
+        alert('This is where I would take your money')
+    }
+
     return <div className="cartContainer">
         <h1 className="heading">Cart</h1>
         <div className="cart">
@@ -17,8 +21,9 @@ const Cart = (props) => {
                 <button className="cart-remove" onClick={()=>{remove(item)}}>Remove</button>
             </div>
         )})}
-        <div className="total">
-            <p>Total ${total}</p>
+        <div className="purchaseDiv">
+            <p className="total">Total ${total}</p>
+            <button className="checkout" onClick={checkout}>Checkout</button>
         </div>
         </div>
     </div>
