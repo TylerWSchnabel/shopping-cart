@@ -232,6 +232,7 @@ a:visited{
 
   .store-grid{
     padding-top: 10%;
+    padding-bottom: 10%;
   }
   .cartContainer{
     width: 100vw;
@@ -244,6 +245,12 @@ a:visited{
   }
   .cart-album {
     padding-left: 1rem;
+  }
+  .cart-price{
+    justify-self: flex-end;
+  }
+  .cart-quantity{
+    width: 30%;
   }
   .cart-remove{
     justify-self:center;
