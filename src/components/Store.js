@@ -30,7 +30,7 @@ const Store = (props) => {
                         </div>
                     </div> 
                     <div id={"enlargedPicture"+ album.key} className="enlargedDiv">
-                        <img src={album.src} alt={album.album} className="enlargedImg"/>
+                        <div className="previewImg"><img src={album.src} alt={album.album} className="enlargedImg"/></div>
                         <button className="closeBtn" onClick={()=>{close(document.getElementById('enlargedPicture'+ album.key))}}>Close</button>
                     </div>
                 </div>
