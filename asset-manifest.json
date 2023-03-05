@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.f41d3b76.css",
-    "main.js": "/shopping-cart/static/js/main.0d73b43c.js",
+    "main.css": "/shopping-cart/static/css/main.c3a2e67e.css",
+    "main.js": "/shopping-cart/static/js/main.e7e16665.js",
     "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
     "static/media/HappyBirthday-WhiteShirt.png": "/shopping-cart/static/media/HappyBirthday-WhiteShirt.dee660ebd179cd91720d.png",
     "static/media/Flags-WhiteShirt.png": "/shopping-cart/static/media/Flags-WhiteShirt.2aaa198fc61871a9fc8d.png",
@@ -24,12 +24,12 @@
     "static/media/Rats-Get-Fat.ttf": "/shopping-cart/static/media/Rats-Get-Fat.f1f39767bfe032021575.ttf",
     "static/media/cart.png": "/shopping-cart/static/media/cart.eca5ee08f37494f3f691.png",
     "index.html": "/shopping-cart/index.html",
-    "main.f41d3b76.css.map": "/shopping-cart/static/css/main.f41d3b76.css.map",
-    "main.0d73b43c.js.map": "/shopping-cart/static/js/main.0d73b43c.js.map",
+    "main.c3a2e67e.css.map": "/shopping-cart/static/css/main.c3a2e67e.css.map",
+    "main.e7e16665.js.map": "/shopping-cart/static/js/main.e7e16665.js.map",
     "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f41d3b76.css",
-    "static/js/main.0d73b43c.js"
+    "static/css/main.c3a2e67e.css",
+    "static/js/main.e7e16665.js"
   ]
 }
