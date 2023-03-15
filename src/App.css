@@ -54,7 +54,22 @@ a:visited{
   font-size: 80px;
   margin-bottom: 0%;
 }
-
+.music-cont {
+  margin-top: 5vh;
+  display: grid;
+}
+.song-container {
+  display: grid;
+  margin-top: 2vh;
+}
+.song-title{
+  font-family: rats;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.song {
+  justify-self: center;
+}
 .store-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -218,15 +233,21 @@ a:visited{
   }
   .nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   .nav-links{
     width: 100%;
+    padding-left: 2vw;
   }
   .logo{
     width:90%;
   }
+
+  .song-container{
+    width: 80vw;
+    justify-self: center
+  }
+  
 
   
 

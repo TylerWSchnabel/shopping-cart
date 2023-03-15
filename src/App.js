@@ -5,6 +5,7 @@ import Store from './components/Store';
 import Cart from './components/Cart';
 import Home from './components/Home';
 import Tour from './components/Tour';
+import Music from './components/Music';
 import './App.css';
 
 function App() {
@@ -84,6 +85,7 @@ function App() {
             <Route path='/store' element={<Store add={addToCart}/>} />
             <Route path='/cart' element={<Cart cart={cart} total={cartTotal} remove={removeItem} change={quantityChange} round={roundPrice}/>} />
             <Route path='/tour' element={<Tour/>}/>
+            <Route path='/music' element={<Music/>}/>
           </Routes>
       </Router>
     </div>

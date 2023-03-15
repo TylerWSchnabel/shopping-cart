@@ -13,17 +13,20 @@ const Nav = (props) => {
     return <nav>
         <img src={BGlogo} alt="Bay Gulls" className="BGlogo"/>
             <ul className="nav-links">
-                <Link to='/'>
-                    <li>Home</li>
+                <Link to='/' className="nav-title">
+                    <li className="nav-title">Home</li>
                 </Link>
-                <Link to='/store'>
-                    <li>Store</li>
+                <Link to='/music' className="nav-title">
+                    <li >Music</li>
                 </Link>
-                <Link to='/tour'>
-                    <li>Tour</li>
+                <Link to='/store' className="nav-title">
+                    <li className="nav-title">Store</li>
                 </Link>
-                <Link to='/cart'>
-                    <li><img src={CartLogo} alt="Cart" className="cart-logo"/> ({cart.length})</li>
+                <Link to='/tour' className="nav-title">
+                    <li className="nav-title">Tour</li>
+                </Link>
+                <Link to='/cart' className="nav-title">
+                    <li className="nav-title"><img src={CartLogo} alt="Cart" className="cart-logo"/> ({cart.length})</li>
                 </Link>
             </ul>
     </nav>
